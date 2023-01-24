@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.wastefoodmanagement">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AAHAARAPP"
+        tools:ignore="AllowBackup">
+        <activity android:name="com.example.wastefoodmanagement.UserdataActivity"></activity>
+        <activity android:name="com.example.wastefoodmanagement.History" />
+        <activity android:name="com.example.wastefoodmanagement.MyPin" />
+        <activity android:name="com.example.wastefoodmanagement.About" />
+        <activity android:name="com.example.wastefoodmanagement.FoodMap" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBtAubRGSlTZanGLTPT3JrKWsRCFAXZzrE" />
+
+        <activity android:name="com.example.wastefoodmanagement.Receive" />
+        <activity android:name="com.example.wastefoodmanagement.Contact" />
+        <activity android:name="com.example.wastefoodmanagement.Signup" />
+        <activity android:name="com.example.wastefoodmanagement.Logup" />
+        <activity android:name="com.example.wastefoodmanagement.MainActivity" />
+        <activity android:name="com.example.wastefoodmanagement.Donate" />
+        <activity android:name="com.example.wastefoodmanagement.landingpage" />
+        <activity
+            android:name="com.example.wastefoodmanagement.SplashScreen"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
