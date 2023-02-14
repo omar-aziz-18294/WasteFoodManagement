@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bthre"
+    android:background="#f0f0f0"
     android:padding="16dp"
     android:gravity="center"
     tools:context=".Signup">
@@ -161,7 +161,7 @@
             android:layout_marginBottom="5dp"
             android:gravity="center"
             android:text="@string/not_register"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:fontFamily="@font/opensans"
             android:textSize="17sp"/>
 

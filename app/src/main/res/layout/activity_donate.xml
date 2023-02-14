@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="#f0f0f0"
     tools:context=".Donate">
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
         android:text="@string/donate"
         android:fontFamily="@font/opensans"
         android:textSize="24sp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:layout_margin="20dp"/>
 
     <RelativeLayout
@@ -47,9 +47,9 @@
                     android:id="@+id/nameError"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColorHint="@color/white"
-                    app:hintTextColor="@color/white"
-                    app:boxStrokeColor="@color/white">
+                    android:textColorHint="@color/black"
+                    app:hintTextColor="@color/black"
+                    app:boxStrokeColor="@color/black">
 
                     <EditText
                         android:id="@+id/donorname"
@@ -60,8 +60,8 @@
                         android:textSize="20sp"
                         android:fontFamily="@font/opensans"
                         android:inputType="text"
-                        android:textColor="@color/white"
-                        android:textColorHint="@color/white"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
                         android:backgroundTint="@android:color/transparent"
                         android:maxLines="1"
                         android:singleLine="true"
@@ -75,9 +75,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:textColorHint="@color/white"
-                    app:hintTextColor="@color/white"
-                    app:boxStrokeColor="@color/white">
+                    android:textColorHint="@color/black"
+                    app:hintTextColor="@color/black"
+                    app:boxStrokeColor="@color/black">
 
                     <EditText
                         android:id="@+id/fooditem"
@@ -87,8 +87,8 @@
                         android:hint="@string/food_name"
                         android:textSize="20sp"
                         android:fontFamily="@font/opensans"
-                        android:textColor="@color/white"
-                        android:textColorHint="@color/white"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
                         android:inputType="text"
                         android:backgroundTint="@android:color/transparent"
                         android:maxLines="2"
@@ -103,9 +103,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:textColorHint="@color/white"
-                    app:hintTextColor="@color/white"
-                    app:boxStrokeColor="@color/white">
+                    android:textColorHint="@color/black"
+                    app:hintTextColor="@color/black"
+                    app:boxStrokeColor="@color/black">
 
                     <EditText
                         android:id="@+id/phone"
@@ -118,8 +118,8 @@
                         android:backgroundTint="@android:color/transparent"
                         android:maxLength="12"
                         android:inputType="phone"
-                        android:textColor="@color/white"
-                        android:textColorHint="@color/white"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
                         android:maxLines="1"
                         android:singleLine="true"
                         android:importantForAutofill="no"
@@ -131,11 +131,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:textColorHint="@color/white"
-                    app:hintTextColor="@color/white"
+                    android:textColorHint="@color/black"
+                    app:hintTextColor="@color/black"
                     android:textSize="20sp"
                     android:fontFamily="@font/opensans"
-                    app:boxStrokeColor="@color/white">
+                    app:boxStrokeColor="@color/black">
 
                     <EditText
                         android:id="@+id/description"
@@ -147,8 +147,8 @@
                         android:fontFamily="@font/opensans"
                         android:inputType="textMultiLine"
                         android:maxLines="10"
-                        android:textColor="@color/white"
-                        android:textColorHint="@color/white"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
                         android:backgroundTint="@android:color/transparent"
                         android:importantForAutofill="no"
                         tools:ignore="UnusedAttribute" />
@@ -170,9 +170,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_margin="20dp"
-                    android:backgroundTint="@color/button_background_color"
+                    android:backgroundTint="#b7d7e8"
                     android:text="@string/submit"
-                    android:textColor="@color/button_text_color"
+                    android:textColor="@color/black"
                     android:textSize="20sp"
                     tools:ignore="UnusedAttribute" />
 

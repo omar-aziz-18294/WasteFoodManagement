@@ -11,7 +11,7 @@
     android:layout_marginRight="10dp"
 
     android:clickable="true"
-    app:cardBackgroundColor="@color/gray"
+    app:cardBackgroundColor="#f0f0f0"
     app:cardCornerRadius="12dp"
     app:cardElevation="5dp"
     tools:ignore="KeyboardInaccessibleWidget">
@@ -31,7 +31,7 @@
         android:layout_margin="10dp"
         android:fontFamily="@font/opensans"
         android:text="Name:"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="18sp" />
 
     <TextView
@@ -42,7 +42,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:fontFamily="@font/opensans_light"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="18sp" />
     </LinearLayout>
 
@@ -58,7 +58,7 @@
         android:layout_marginRight="10dp"
         android:fontFamily="@font/opensans"
         android:text="Type:"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="18sp" />
     <TextView
         android:id="@+id/type"
@@ -67,7 +67,7 @@
         android:layout_marginBottom="10dp"
         android:layout_marginRight="10dp"
         android:fontFamily="@font/opensans_light"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="18sp"
         />
     </LinearLayout>
@@ -83,7 +83,7 @@
         android:layout_marginRight="10dp"
         android:fontFamily="@font/opensans"
         android:text="Description:"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="18sp" />
     <TextView
         android:id="@+id/description"
@@ -92,7 +92,7 @@
         android:layout_marginBottom="10dp"
         android:layout_marginRight="10dp"
         android:fontFamily="@font/opensans_light"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="18sp" />
     </LinearLayout>
         <androidx.cardview.widget.CardView

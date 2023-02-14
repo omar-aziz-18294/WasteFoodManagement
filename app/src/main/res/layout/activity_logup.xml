@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bthre"
+    android:background="#f0f0f0"
     android:padding="16dp"
     android:gravity="center"
     tools:context=".Logup">
@@ -91,7 +91,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="20dp"
-            android:background="@drawable/button_rounded"
+            android:background = "#b7d7e8"
             android:text="@string/login"
             android:textColor="@android:color/white"
             android:textSize="16sp" />
@@ -103,7 +103,7 @@
             android:layout_marginTop="5dp"
             android:gravity="center"
             android:text="@string/create_new"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:fontFamily="@font/opensans"
             android:textSize="17sp" />
 
